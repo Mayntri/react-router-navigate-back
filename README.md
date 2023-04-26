@@ -1,1 +1,1 @@
-npm i react-router-back
+npm i react-router-navigate-back
