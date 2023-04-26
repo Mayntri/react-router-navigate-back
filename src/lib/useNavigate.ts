@@ -32,7 +32,6 @@ export const useNavigate = () => {
         return reactRouterNavigate(-1);
       }
 
-
       const state = {
         back: true,
         ...options?.state,
