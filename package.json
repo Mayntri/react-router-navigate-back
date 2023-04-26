@@ -1,5 +1,5 @@
 {
-  "name": "react-router-back",
+  "name": "react-router-navigate-back",
   "version": "0.1.0",
   "exports": {
     ".": {
