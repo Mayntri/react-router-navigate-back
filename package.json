@@ -1,0 +1,51 @@
+{
+  "name": "react-router-back",
+  "version": "0.1.0",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/main.d.ts",
+        "default": "./dist/react-router-back.es.js"
+      },
+      "require": {
+        "types": "./dist/main.d.ts",
+        "default": "./dist/react-router-back.umd.js"
+      }
+    }
+  },
+  "main": "./dist/react-router-back.umd.js",
+  "module": "./dist/react-router-back.es.js",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^18.16.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "react": ">=17.x",
+    "react-dom": ">=17.x",
+    "react-router-dom": "^6.10.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.x",
+    "react-dom": ">=17.x",
+    "react-router-dom": "^6.10.0"
+  }
+}
