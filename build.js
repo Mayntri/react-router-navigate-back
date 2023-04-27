@@ -19,9 +19,9 @@ build({
   target: ["esnext", "node12.22.0"],
 });
 
-build({
-  ...shared,
-  format: "cjs",
-  outfile: "./dist/index.cjs.js",
-  target: ["esnext", "node12.22.0"],
-});
+// build({
+//   ...shared,
+//   format: "cjs",
+//   outfile: "./dist/index.cjs.js",
+//   target: ["esnext", "node12.22.0"],
+// });
