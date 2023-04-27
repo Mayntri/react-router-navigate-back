@@ -29,6 +29,7 @@
     "typescript": "^5.0.2"
   },
   "devDependencies": {
+    "clean-publish": "^4.2.0",
     "esbuild": "^0.14.10",
     "live-server": "^1.2.1",
     "rimraf": "^3.0.2",
