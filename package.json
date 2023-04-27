@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "build": "npm run clean && node build.js && tsc --emitDeclarationOnly --outDir dist",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "publish": "clean-publish"
   },
   "dependencies": {
     "@types/node": "^18.16.1",
