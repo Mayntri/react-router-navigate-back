@@ -6,7 +6,7 @@
     "declaration": true, // Generate corresponding .d.ts file
     "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
     "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
-    "incremental": true, // Enable incremental compilation by reading/writing information from prior compilations to a file on disk
+    "incremental": false, // Disable incremental compilation by reading/writing information from prior compilations to a file on disk
     "isolatedModules": true, // Unconditionally emit imports for unresolved files
     "jsx": "react-jsx", // Support JSX in .tsx files
     "lib": ["dom", "dom.iterable", "esnext"], // List of library files to be included in the compilation
