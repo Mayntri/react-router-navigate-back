@@ -1,3 +1,5 @@
+# [![npm version](https://img.shields.io/npm/v/react-router-navigate-back)](https://www.npmjs.com/package/react-router-navigate-back)
+
 ## Install
 
 ```npm
