@@ -1,6 +1,6 @@
 {
   "name": "react-router-navigate-back",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/Mayntri/react-router-back#readme",
   "repository": {
     "type": "git",
@@ -9,6 +9,14 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "router",
+    "route",
+    "routing",
+    "history",
+    "link"
+  ],
   "files": [
     "dist",
     "README.md"
